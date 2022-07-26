@@ -9,6 +9,15 @@
     <title>Vue 3 Basic Shopping Cart</title>
   </head>
   <body>
+    <div id="app">
+      <h1>{{ product }}</h1>
+      <p>{{ description }}</p>
+    </div>
+    <!--Import App-->
     <script src="./main.js"></script>
+    <!--Mount App-->
+    <script>
+      const mountApp = createApp.mount("#app");
+    </script>
   </body>
 </html>
